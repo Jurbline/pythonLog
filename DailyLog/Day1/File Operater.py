@@ -22,7 +22,7 @@ def open_rw():
 
 def open_w():
     file = open('file3',mode="w",encoding='utf8')
-    file.write("Hello,我爱学习")
+    # file.write("Hello,我爱学习")
     file.close()
 
 if __name__ == '__main__':
